@@ -1,0 +1,32 @@
+{
+  "name": "tai-demo-skills",
+  "owner": {
+    "name": "Han",
+    "email": ""
+  },
+  "metadata": {
+    "description": "A curated collection of Claude Code skills for demo and productivity workflows",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "onboarding-wizard",
+      "source": "./onboarding-wizard",
+      "description": "Customize the Treasure AI onboarding wizard questions and flow for demos",
+      "version": "1.0.0",
+      "author": { "name": "Han" },
+      "license": "MIT",
+      "keywords": ["onboarding", "wizard", "demo", "ftua"]
+    },
+    {
+      "name": "onboarding",
+      "source": "./onboarding",
+      "description": "First-time user onboarding — guides new users from goal to first output",
+      "version": "1.0.0",
+      "author": { "name": "Han" },
+      "license": "MIT",
+      "keywords": ["onboarding", "ftua", "first-time", "signup"]
+    }
+  ]
+}
