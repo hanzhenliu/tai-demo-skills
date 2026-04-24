@@ -9,8 +9,8 @@
 3. **Ask data source** — follow `shared/ask-data-source.md`.
 
 4. **Explore data** — based on the data source answer:
-   - Test Flight: list available tables in `treasurebikes`, describe their schemas, and suggest which tables are most relevant to the user's industry.
-   - Bring your own: wait for file upload, then inspect the data structure.
+   - Synthetic data: list available tables in the `treasurebikes` database, describe their schemas, and suggest which tables are most relevant to the user's industry.
+   - Upload my own data: wait for file upload, then inspect the data structure.
 
 5. **Suggest analysis approaches** — offer 2–3 concrete analysis ideas tailored to the user's industry. Use AskUserQuestion to let them pick or describe their own. Examples by industry:
    - Retail: basket analysis, customer lifetime value, seasonal trends
