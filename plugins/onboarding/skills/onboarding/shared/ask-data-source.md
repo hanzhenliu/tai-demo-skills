@@ -7,10 +7,10 @@ Use the AskUserQuestion tool with:
 - **Options**:
   | Label | Description |
   |-------|-------------|
-  | Test Flight databases | Use tables in the Test Flight account |
-  | Bring your own data | Import CSV, JSON, or other files. Please avoid using personal or confidential data. |
+  | Synthetic data | Use pre-loaded sample datasets to explore features |
+  | Upload my own data | Import CSV, JSON, or other files |
 
 ## Conditional behavior
 
-- **Test Flight databases**: Default to the `treasurebikes` database unless the user specifies otherwise.
-- **Bring your own data**: Remind the user to upload data using the "+" icon in the chat window. Wait for the file attachment before proceeding with any analysis. If the user already has data uploaded, use that instead.
+- **Synthetic data**: Use the `treasurebikes` database. Explain that this is a sample dataset with customer, order, and product data that the user can explore.
+- **Upload my own data**: Remind the user to upload data using the "+" icon in the chat window. Wait for the file attachment before proceeding with any analysis. If the user already has data uploaded, use that instead. Please avoid using personal or confidential data.
