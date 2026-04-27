@@ -33,7 +33,7 @@ Use the directory of the result as the skill root. Then Read the matching goal f
 |------|------|
 | Analyze data | `goals/analyze-data.md` |
 | Find customer segment | `goals/find-segment.md` |
-| Visualize a workflow | `goals/visualize-workflow.md` |
+| Journey planning | `goals/journey-planning.md` |
 | Generate a report | `goals/generate-report.md` |
 | Just explore | `goals/explore.md` |
 
